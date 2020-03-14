@@ -1,0 +1,103 @@
+.heading1{
+   font-family: 'Calligraffitti', cursive;
+    font-size:20px;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px yellow, 1px 1px 25px yellow, 1px 1px 5px yellow;
+    opacity: 0.8;
+    border-color: transparent;
+}
+
+body{
+             
+                background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+    animation: animate 10s ease-in-out infinite;
+                
+            }
+            @keyframes animate {
+                0%,100%{
+                    background-image: url("smoothies-2560x1440-strawberry-banana-mint-delicious-5k-17426.jpg");
+                }
+                25%{
+                    background-image: url("greek-2560x1440-cooking-recipe-lettuce-tomatoes-paprika-olives-feta-4k-17422.jpg");
+                }
+                 50%{
+                    background-image: url("pizza-2560x1440-tomatoes-peppers-cheese-basil-salami-691%20(1).jpg");
+                }
+                75%{
+                    background-image: url("cake-2560x1440-chocolate-strawberry-4995.jpg");
+                }
+            }
+
+input[type=text], select {
+  width:50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  opacity: 50%;
+ border-color:transparent;
+    box-sizing: border-box;
+  border-radius: 8px;
+transition: width 0.4s ease-in-out;
+    text-align: left;
+    
+}
+input[type=text]:focus {
+  width: 80%;
+}
+input[type=date], select {
+  width:50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  opacity: 50%;
+ border-color:transparent;
+    box-sizing: border-box;
+  border-radius: 8px;
+transition: width 0.4s ease-in-out;
+    text-align: left;
+    
+}
+input[type=date]:focus {
+  width: 80%;
+}
+
+input[type=time], select {
+  width:50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  opacity: 50%;
+ border-color:transparent;
+    box-sizing: border-box;
+  border-radius: 8px;
+transition: width 0.4s ease-in-out;
+    text-align: left;
+    
+}
+input[type=date]:focus {
+    width: 80%;}
+
+input[type=submit] {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+    border-radius: 20px;
+    
+}
+
+input[type=submit]:hover{opacity:1;}
+
+label{
+    text-align: left;
+    color: whitesmoke;
+}
+
